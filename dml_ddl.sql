@@ -91,6 +91,9 @@ select substr("Muideen",3,3) as substringPart;
 select substr("Education",6,4) as substringPart;
 select substr(first_name,1,1) as Initial from patients;
 select concat(substr(first_name,1,1),".") as Initial from patients;
+select substr("Aptech Computer Education",1,1) as Initial from patients;
+
+
 
 
 
